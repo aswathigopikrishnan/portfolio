@@ -1,0 +1,777 @@
+* {
+    margin    : 0;
+    padding   : 0;
+    box-sizing: border-box;
+}
+
+
+
+/* this is the header part CSS  */
+/*------------------------------------------------------------------------------------------------------------ */
+header {
+    background-color: #1A1D17;
+    width           : 100%;
+    display         : flex;
+    flex-direction  : row;
+    justify-content : space-between;
+    padding         : 5px 100px;
+}
+
+.logo {
+    height: 110px;
+}
+
+nav ul li {
+    display     : inline;
+    margin-right: 60px;
+}
+
+nav ul {
+    margin-top: 45px;
+}
+
+nav ul li a {
+    color          : white;
+    text-decoration: none;
+    font-size      : 18px;
+    line-height    : 27px;
+    font-family    : "Poppins", sans-serif;
+}
+
+.twosection {
+    background-color: #1A1D17;
+    display         : flex;
+    flex-direction  : row;
+    justify-content : space-evenly;
+    height          : 1000px;
+    padding         : 0px;
+}
+
+.content h1 {
+    font-family  : "Ruluko", sans-serif;
+    font-weight  : 400;
+    font-size    : 80px;
+    padding-top  : 60px;
+    margin-bottom: 40px;
+}
+
+.content h2 {
+    font-family      : "Laila", serif;
+    font-weight      : 400;
+    font-size        : 40px;
+    /* padding-top   : 60px; */
+    /* padding-bottom: 40px; */
+    margin-bottom    : 40px;
+
+}
+
+.content p {
+    font-family     : "Poppins", sans-serif;
+    font-size       : 20px;
+    font-weight     : 400;
+    /* width        : 70%; */
+    margin-bottom   : 40px;
+}
+
+.content {
+    height          : 900px;
+    background-color: #F7F6F0;
+    margin-left     : 65px;
+    padding         : 0px 90px;
+    padding-top     : 40px;
+    border-radius   : 50px 0px 0px 50px;
+}
+
+.content .name-branding {
+    margin-top: 40px;
+    width     : 100%;
+}
+
+.content button {
+    background-image: url('resume.png');
+    height          : 113px;
+    border          : 0px;
+    width           : 338px;
+    cursor          : pointer;
+}
+
+.content .resume {
+    display        : flex;
+    justify-content: center;
+}
+
+.image .photo {
+    height          : 700px;
+    background-image: linear-gradient(to top, rgba(158, 2, 99), rgba(26, 29, 23));
+    height          : 901px;
+}
+
+/*------------------------------------------------------------------------------------------------------------ */
+/*------------------------------------------------------------------------------------------------------------ */
+
+
+/*The about me part of CSS*/
+/*------------------------------------------------------------------------------------------------------------ */
+
+.aboutme {
+    background-color: #F7F6F0;
+    border-color    : #7A27EB;
+    padding: 0px 60px;
+    padding-bottom  : 80px;
+}
+
+.aboutmesection {
+    display       : flex;
+    flex-direction: row;
+    align-items   : center;
+    padding-top   : 100px;
+}
+
+.aboutmecontent h3 {
+    font-family            : "Croissant One", serif;
+    font-weight            : 400;
+    font-size              : 50px;
+    background             : -webkit-linear-gradient(rgb(54, 103, 177), rgb(230, 4, 144));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.aboutmecontent {
+    margin-left: 40px;
+}
+
+.aboutmecontent p {
+    font-family: "Poppins", sans-serif;
+    font-size  : 20px;
+    font-weight: 400;
+}
+
+.education h3 {
+    font-family            : "Croissant One", serif;
+    font-weight            : 400;
+    font-size              : 45px;
+    background             : -webkit-linear-gradient(rgb(54, 103, 177), rgb(230, 4, 144));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.certificate h3 {
+    font-family            : "Croissant One", serif;
+    font-weight            : 400;
+    font-size              : 45px;
+    background             : -webkit-linear-gradient(rgb(54, 103, 177), rgb(230, 4, 144));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.education h4 {
+    font-family   : "Poppins", sans-serif;
+    font-size     : 20px;
+    font-weight   : 400;
+    padding-bottom: 12px;
+}
+
+.certificate h4 {
+    font-family   : "Poppins", sans-serif;
+    font-size     : 20px;
+    font-weight   : 400;
+    padding-bottom: 12px;
+}
+
+.education p {
+    font-family: "Poppins", sans-serif;
+    font-size  : 20px;
+    font-weight: 400;
+
+}
+
+.certificate p {
+    font-family: "Poppins", sans-serif;
+    font-size  : 20px;
+    font-weight: 400;
+}
+
+.educationsection {
+    display       : flex;
+    flex-direction: row;
+    flex-wrap     : wrap;
+    margin-top    : 100px;
+}
+
+.educationsection>*,
+.softwaresection>* {
+    width       : 50%;
+    padding-left: 60px;
+    margin-top  : 40px;
+}
+
+.education .header,
+.certificate .header {
+    position: relative;
+    width   : max-content;
+}
+
+.fa-graduation-cap,
+.fa-sheet-plastic {
+    position : absolute;
+    top      : -8px;
+    font-size: 26px;
+    right    : -20px;
+}
+
+
+.softwaresection {
+    display       : flex;
+    flex-direction: row;
+    margin-top    : 40px;
+}
+
+.software h4 {
+    font-family            : "Croissant One", serif;
+    font-weight            : 400;
+    font-size              : 45px;
+    background             : -webkit-linear-gradient(rgb(54, 103, 177), rgb(230, 4, 144));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.skills h4 {
+    font-family            : "Croissant One", serif;
+    font-weight            : 400;
+    font-size              : 45px;
+    background             : -webkit-linear-gradient(rgb(54, 103, 177), rgb(230, 4, 144));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.skill-name img {
+    width: 100%;
+}
+
+.software img {
+    width: 380px;
+    padding-top: 30px;
+}
+
+.figma-content {
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-between;
+    align-items    : center;
+}
+
+.percent {
+    width            : 90px;
+    height           : 90px;
+    background-color : #AAFF00;
+    border-radius    : 50px;
+    align-content    : center;
+    box-shadow       : 0px 4px 4px rgba(0, 0, 0, 0.255);
+    /* padding-bottom: 10px; */
+    text-align       : center;
+    margin-bottom    : 10px;
+}
+
+.figma-content h5 {
+    font-family: "Poppins", sans-serif;
+    font-size  : 30px;
+    font-weight: 400;
+}
+
+.HTML-content {
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-between;
+    align-items    : center;
+}
+
+.HTML-content h5 {
+    font-family: "Poppins", sans-serif;
+    font-size  : 30px;
+    font-weight: 400;
+}
+
+.CSS-content {
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-between;
+    align-items    : center;
+}
+
+.CSS-content h5 {
+    font-family: "Poppins", sans-serif;
+    font-size  : 30px;
+    font-weight: 400;
+}
+
+.JS-content {
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-between;
+    align-items    : center;
+}
+
+.JS-content h5 {
+    font-family: "Poppins", sans-serif;
+    font-size  : 30px;
+    font-weight: 400;
+}
+
+.figma {
+    padding-bottom: 15px;
+}
+
+.HTML {
+    padding-bottom: 15px;
+}
+
+.CSS {
+    padding-bottom: 15px;
+}
+
+.JS {
+    padding-bottom: 15px;
+}
+
+/*------------------------------------------------------------------------------------------------------------ */
+/*------------------------------------------------------------------------------------------------------------ */
+.projects-head {
+    width        : 567px;
+    margin       : 40px auto;
+}
+
+.projects h2 {
+    font-family            : "Poppins", sans-serif;
+    font-size              : 86px;
+    font-weight            : 400;
+    text-align             : center;
+    background             : -webkit-linear-gradient(rgb(54, 103, 177), rgb(230, 4, 144));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height            : 1;
+}
+
+.projects h1 {
+    font-family: "Fraunces", serif;
+    font-size  : 116px;
+    font-weight: 400;
+    text-align : center;
+    line-height: 1;
+}
+
+
+ .project-list {
+    background-color: #F7F6F0;
+    padding: 60px 60px;
+} 
+/*-project one */
+/*------------------------------------------------------------------------------------------------------------ */
+.project-one {
+    position        : relative;
+    /* height          : 3280px; */
+}
+
+.topimage {
+    position: absolute;
+    top     : 0px;
+    right   : 0px;
+}
+
+.project-one h2 {
+    font-family: "Croissant One", serif;
+    font-weight: 400;
+    font-size  : 45px;
+}
+
+.count {
+    margin-left: 30px;
+    margin-top : 30px;
+}
+
+.project-name {
+    display       : flex;
+    flex-direction: row;
+    align-items   : center;
+}
+
+.project-name h2 {
+    padding-left: 60px;
+}
+
+.project-one,
+.project-two,
+.project-three{
+    margin-bottom: 80px;
+}
+
+.project-one>p,
+.project-two>p,
+.project-three>p{
+    font-family  : "Poppins", sans-serif;
+    font-size    : 20px;
+    font-weight  : 400;
+    width: 65%;
+    margin-left: 340px !important;
+    margin:0px auto;
+}
+
+.wireframe-name {
+    width           : 600px;
+    height          : 1336px;
+    background-color: #1A1D17;
+    border-radius   : 40px 0px 0px 40px;
+    display         : flex;
+    align-items     : center;
+    justify-content: center;
+}
+
+.wireframe-section {
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-evenly;
+    margin-top     : 20px;
+    margin-bottom  : 40px;
+    margin-left    : 40px;
+}
+
+/* .wireframe-section img{
+    margin-left: 40px;
+} */
+.wireframe-name p {
+    background             : -webkit-linear-gradient(rgb(54, 103, 177), rgb(230, 4, 144));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family            : "Croissant One", serif;
+    font-weight            : 400;
+    font-size              : 55px;
+    text-align             : center;
+}
+
+.uidesign-section {
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-evenly;
+    margin-top     : 20px;
+    margin-bottom  : 40px;
+    margin-left    : 40px;
+}
+
+/* .uidesign-section img{
+    margin-left: 40px;
+} */
+.uidesign-name p {
+    background             : -webkit-linear-gradient(rgb(54, 103, 177), rgb(230, 4, 144));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family            : "Croissant One", serif;
+    font-weight            : 400;
+    font-size              : 55px;
+    text-align             : center;
+}
+
+.uidesign-name {
+    width           : 600px;
+    height          : 1336px;
+    background-color: #1A1D17;
+    border-radius   : 40px 0px 0px 40px;
+    display         : flex;
+    align-items     : center;
+    justify-content: center;
+}
+
+/*------------------------------------------------------------------------------------------------------------ */
+/*------------------------------------------------------------------------------------------------------------ */
+/*Project two */
+/*------------------------------------------------------------------------------------------------------------ */
+.project-two {
+    position        : relative;
+    background-color: #F7F6F0;
+    height          : 2000px;
+    margin-top      : 40px;
+}
+
+.project-two h2 {
+    font-family: "Croissant One", serif;
+    font-weight: 400;
+    font-size  : 45px;
+}
+
+.count {
+    margin-left: 30px;
+    margin-top : 30px;
+}
+
+.zero {
+    width : 109px;
+    height: 95px;
+}
+
+.project-two h4 {
+    font-family    : "Poppins", sans-serif;
+    font-size      : 36px;
+    font-weight    : 600;
+    margin-left    : 30px;
+    margin-top     : 30px;
+    text-decoration: underline;
+}
+
+.screensetone {
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-evenly;
+    margin-top     : 40px;
+}
+
+.screensettwo {
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+
+.application {
+    margin-left: 10px;
+    width      : 180px;
+    height     : 150px;
+}
+
+/*------------------------------------------------------------------------------------------------------------ */
+/*------------------------------------------------------------------------------------------------------------ */
+/*Project three*/
+/*------------------------------------------------------------------------------------------------------------ */
+.project-three {
+    position        : relative;
+    background-color: #F7F6F0;
+    height          : 2000px;
+    margin-top      : 40px;
+}
+
+.project-three h2 {
+    font-family: "Croissant One", serif;
+    font-weight: 400;
+    font-size  : 45px;
+}
+
+.count {
+    margin-left: 30px;
+    margin-top : 30px;
+    width: 250px;
+}
+
+.zero {
+    width : 109px;
+    height: 95px;
+}
+
+.three {
+    width : 99px;
+    height: 93px;
+}
+
+.screen-project3 {
+    display        : flex;
+    flex-direction : column;
+    align-content  : stretch;
+    justify-content: space-evenly;
+    align-items    : center;
+}
+.screen-project3 img{
+    margin-bottom:80px;
+}
+
+.project-three h4 {
+    font-family    : "Poppins", sans-serif;
+    font-size      : 36px;
+    font-weight    : 600;
+    margin-left    : 30px;
+    margin-top     : 30px;
+    text-decoration: underline;
+}
+
+.screenproject31 {
+    width          : 928px;
+    height         : 781px;
+    justify-content: flex-start;
+    margin-bottom  : 15px;
+}
+
+.screenproject32 {
+    width          : 928px;
+    height         : 781px;
+    justify-content: flex-end;
+}
+
+/*------------------------------------------------------------------------------------------------------------ */
+/*------------------------------------------------------------------------------------------------------------ */
+/*Final project */
+/*------------------------------------------------------------------------------------------------------------ */
+
+.final-project .final-project-head {
+    text-decoration        : underline;
+    font-family            : "Fraunces", serif;
+    font-weight            : 400;
+    font-size              : 60px;
+    background             : -webkit-linear-gradient(rgb(54, 103, 177), rgb(230, 4, 144));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top             : 10px;
+    text-decoration-line   : underline;
+    text-decoration-style  : solid;
+    text-decoration-color  : black;
+
+}
+
+.final-project-name {
+    font-family: "Croissant One", serif;
+    font-size  : 50px;
+    font-weight: 400;
+    text-align : center;
+}
+
+.tagline {
+    font-family: "Poppins", sans-serif;
+    font-size  : 25px;
+    font-weight: 400;
+    text-align : center;
+}
+
+.final-project-about {
+    font-family          : "Ribeye", serif;
+    font-size            : 35px;
+    font-weight          : 400;
+    margin-left          : 25px;
+    margin-bottom        : 20px;
+    text-decoration-line : underline;
+    text-decoration-style: solid;
+    text-decoration-color: black;
+}
+
+.final-project p {
+    font-family  : "Poppins", sans-serif;
+    font-size    : 20px;
+    font-weight  : 400;
+    padding      : 15px 230px;
+    margin-left  : 25px;
+    margin-bottom: 20px;
+}
+
+.final-project h5 {
+    font-family            : "Croissant One", serif;
+    font-size              : 40px;
+    font-weight            : 400;
+    background             : -webkit-linear-gradient(rgb(54, 103, 177), rgb(230, 4, 144));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration-line   : underline;
+    text-decoration-style  : solid;
+    text-decoration-color  : black;
+    text-align             : center;
+    margin-left            : 25px;
+    margin-bottom          : 20px;
+}
+.final-project{
+    padding: 60px 60px;
+}
+.fidelityscreen-list {
+    display           : flex;
+    flex-direction    : column;
+    /* align-content  : stretch;
+    justify-content   : space-evenly;
+    align-items       : center; */
+}
+
+.fidelityscreen-one,
+.fidelityscreen-two {
+    display         : flex;
+    flex-direction  : row;
+    justify-content : space-evenly;
+    margin-bottom: 80px;
+}
+
+.blackbox p {
+    color    : white;
+    font-size: 40px;
+}
+
+.blackbox {
+    width           : 373px;
+    height          : 335px;
+    background-color: black;
+    margin-top      : 15px;
+    border-radius   : 0px 40px 40px 0px;
+    box-shadow      : 10px 10px 5px rgba(255, 255, 255, 0.303) inset;
+}
+
+a {
+    text-decoration: none;
+    color          : #1D5A27;
+    text-align     : center;
+}
+
+.final-project .link {
+    /* text-indent: 50px; */
+    text-align          : justify;
+    /* letter-spacing   : 3px; */
+    text-align          : center;
+    font-family         : "Poppins", sans-serif;
+    font-size           : 30px;
+    /* font-weight      : bolder; */
+}
+
+/*------------------------------------------------------------------------------------------------------------ */
+/*------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------  */
+/* this is the conclusion section CSS  */
+/*------------------------------------------------------------------------------------------------------------ */
+.conclusion {
+    background-color: #F7F6F0;
+    width           : 100%;
+    padding: 60px;
+}
+
+.line {
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.conclusion a {
+    background             : -webkit-linear-gradient(rgb(54, 103, 177), rgb(230, 4, 144));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.conclusion p {
+    font-family: "Mystery Quest", system-ui;
+    font-weight: 400;
+    font-style : normal;
+    font-size  : 50px;
+    text-align : center;
+    margin-top : 10px;
+
+}
+
+.conclusion div{
+    text-align: right;
+    font-size:30px;
+    margin-bottom: 20px;
+}
+.hireme {
+    margin-left: 350px;
+}
+
+.phone p,
+.email p,
+.linkedin p {
+    font-family: "Poppins", sans-serif;
+    font-size  : 20px;
+    font-weight: 400;
+    text-align : right;
+    display:inline-block
+}
+
+/*------------------------------------------------------------------------------------------------------------ */
+/*Bootstrap classes*/
+/*------------------------------------------------------------------------------------------------------------ */
+.mar-b-40{
+    margin-bottom:40px !important;
+}
