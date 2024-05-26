@@ -1,7 +1,8 @@
 * {
-    margin    : 0;
-    padding   : 0;
-    box-sizing: border-box;
+    margin     : 0;
+    padding    : 0;
+    box-sizing : border-box;
+    font-family: "Poppins", sans-serif;
 }
 
 
@@ -13,7 +14,7 @@ header {
     display         : flex;
     flex-direction  : row;
     justify-content : space-between;
-    padding: 5px 20px;
+    padding         : 5px 20px;
 }
 
 .logo {
@@ -32,9 +33,7 @@ nav ul {
 nav ul li a {
     color          : white;
     text-decoration: none;
-    font-size      : 18px;
-    line-height    : 27px;
-    font-family    : "Poppins", sans-serif;
+    font-size      : 16px;
 }
 
 .twosection {
@@ -42,7 +41,7 @@ nav ul li a {
     display         : flex;
     flex-direction  : row;
     justify-content : space-evenly;
-    padding-bottom: 60px;
+    padding-bottom  : 60px;
 }
 
 .content h1 {
@@ -64,7 +63,6 @@ nav ul li a {
 }
 
 .content p {
-    font-family     : "Poppins", sans-serif;
     font-size       : 20px;
     font-weight     : 400;
     /* width        : 70%; */
@@ -82,7 +80,7 @@ nav ul li a {
 
 .content .name-branding {
     margin: 80px 0px;
-    width     : 100%;
+    width : 100%;
 }
 
 .content button {
@@ -97,15 +95,17 @@ nav ul li a {
     display        : flex;
     justify-content: center;
 }
-.image{
-    width: 35%;
-    display: flex;
-    flex-direction: column-reverse;
+
+.image {
+    width           : 35%;
+    display         : flex;
+    flex-direction  : column-reverse;
     background-color: #1b1d18;
 }
+
 .image .photo {
     background-image: linear-gradient(to top, rgba(158, 2, 99), rgba(26, 29, 23));
-    width:100%;
+    width           : 100%;
 }
 
 /*------------------------------------------------------------------------------------------------------------ */
@@ -125,7 +125,7 @@ nav ul li a {
 .aboutmesection {
     display       : flex;
     flex-direction: row;
-    align-items   : center;
+    align-items   : flex-start;
     padding-top   : 100px;
 }
 
@@ -143,7 +143,6 @@ nav ul li a {
 }
 
 .aboutmecontent p {
-    font-family: "Poppins", sans-serif;
     font-size  : 20px;
     font-weight: 400;
 }
@@ -167,28 +166,24 @@ nav ul li a {
 }
 
 .education h4 {
-    font-family   : "Poppins", sans-serif;
     font-size     : 20px;
     font-weight   : 400;
     padding-bottom: 12px;
 }
 
 .certificate h4 {
-    font-family   : "Poppins", sans-serif;
     font-size     : 20px;
     font-weight   : 400;
     padding-bottom: 12px;
 }
 
 .education p {
-    font-family: "Poppins", sans-serif;
     font-size  : 20px;
     font-weight: 400;
 
 }
 
 .certificate p {
-    font-family: "Poppins", sans-serif;
     font-size  : 20px;
     font-weight: 400;
 }
@@ -275,7 +270,6 @@ nav ul li a {
 }
 
 .figma-content h5 {
-    font-family: "Poppins", sans-serif;
     font-size  : 30px;
     font-weight: 400;
 }
@@ -288,7 +282,6 @@ nav ul li a {
 }
 
 .HTML-content h5 {
-    font-family: "Poppins", sans-serif;
     font-size  : 30px;
     font-weight: 400;
 }
@@ -301,7 +294,6 @@ nav ul li a {
 }
 
 .CSS-content h5 {
-    font-family: "Poppins", sans-serif;
     font-size  : 30px;
     font-weight: 400;
 }
@@ -314,7 +306,6 @@ nav ul li a {
 }
 
 .JS-content h5 {
-    font-family: "Poppins", sans-serif;
     font-size  : 30px;
     font-weight: 400;
 }
@@ -343,7 +334,6 @@ nav ul li a {
 }
 
 .projects h2 {
-    font-family            : "Poppins", sans-serif;
     font-size              : 86px;
     font-weight            : 400;
     text-align             : center;
@@ -370,7 +360,7 @@ nav ul li a {
 /*-project one */
 /*------------------------------------------------------------------------------------------------------------ */
 .project-one {
-    position           : relative;
+    position: relative;
 }
 
 .topimage {
@@ -409,7 +399,6 @@ nav ul li a {
 .project-one>p,
 .project-two>p,
 .project-three>p {
-    font-family: "Poppins", sans-serif;
     font-size  : 20px;
     font-weight: 400;
     width      : 65%;
@@ -436,21 +425,23 @@ nav ul li a {
 }
 
 .wireframe-section img,
-.uidesign-section img{
+.uidesign-section img {
     width: 65%;
 }
 
 .wireframe-section>div,
-.uidesign-section>div{
+.uidesign-section>div {
     width: 30%;
 }
-.wireframe-name p {
+
+.wireframe-name p,
+.uidesign-name p {
     background             : -webkit-linear-gradient(rgb(54, 103, 177), rgb(230, 4, 144));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family            : "Croissant One", serif;
     font-weight            : 400;
-    font-size              : 55px;
+    font-size              : 32px;
     text-align             : center;
 }
 
@@ -461,19 +452,6 @@ nav ul li a {
     margin-top     : 20px;
     margin-bottom  : 40px;
     margin-left    : 40px;
-}
-
-/* .uidesign-section img{
-    margin-left: 40px;
-} */
-.uidesign-name p {
-    background             : -webkit-linear-gradient(rgb(54, 103, 177), rgb(230, 4, 144));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family            : "Croissant One", serif;
-    font-weight            : 400;
-    font-size              : 55px;
-    text-align             : center;
 }
 
 .uidesign-name {
@@ -512,7 +490,6 @@ nav ul li a {
 }
 
 .project-two h4 {
-    font-family    : "Poppins", sans-serif;
     font-size      : 36px;
     font-weight    : 600;
     margin-left    : 30px;
@@ -585,7 +562,6 @@ nav ul li a {
 }
 
 .project-three h4 {
-    font-family    : "Poppins", sans-serif;
     font-size      : 36px;
     font-weight    : 600;
     margin-left    : 30px;
@@ -630,7 +606,6 @@ nav ul li a {
 }
 
 .tagline {
-    font-family: "Poppins", sans-serif;
     font-size  : 25px;
     font-weight: 400;
     text-align : center;
@@ -648,10 +623,9 @@ nav ul li a {
 }
 
 .final-project p {
-    font-family  : "Poppins", sans-serif;
     font-size    : 20px;
     font-weight  : 400;
-    padding      : 15px 230px;
+    padding      : 40px;
     margin-left  : 25px;
     margin-bottom: 20px;
 }
@@ -716,7 +690,6 @@ a {
     text-align          : justify;
     /* letter-spacing   : 3px; */
     text-align          : center;
-    font-family         : "Poppins", sans-serif;
     font-size           : 30px;
     /* font-weight      : bolder; */
 }
@@ -741,6 +714,7 @@ a {
     background             : -webkit-linear-gradient(rgb(54, 103, 177), rgb(230, 4, 144));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-family            : inherit;
 }
 
 .conclusion p {
@@ -755,22 +729,26 @@ a {
 
 .conclusion div {
     text-align   : right;
-    font-size    : 30px;
+    font-size    : 20px;
     margin-bottom: 20px;
-}
-
-.hireme {
-    margin-left: 350px;
 }
 
 .phone p,
 .email p,
 .linkedin p {
-    font-family: "Poppins", sans-serif;
     font-size  : 20px;
     font-weight: 400;
     text-align : right;
-    display    : inline-block
+    display    : inline-block;
+    margin-left: 20px;
+}
+
+.contact-details a {
+    color                  : black;
+    text-decoration        : none;
+    background             : black;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /*------------------------------------------------------------------------------------------------------------ */
