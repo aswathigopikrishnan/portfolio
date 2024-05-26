@@ -13,7 +13,7 @@ header {
     display         : flex;
     flex-direction  : row;
     justify-content : space-between;
-    padding         : 5px 100px;
+    padding: 5px 20px;
 }
 
 .logo {
@@ -42,7 +42,6 @@ nav ul li a {
     display         : flex;
     flex-direction  : row;
     justify-content : space-evenly;
-    height          : 1000px;
     padding-bottom: 60px;
 }
 
@@ -82,7 +81,7 @@ nav ul li a {
 }
 
 .content .name-branding {
-    margin-top: 80px;
+    margin: 80px 0px;
     width     : 100%;
 }
 
@@ -372,7 +371,6 @@ nav ul li a {
 /*------------------------------------------------------------------------------------------------------------ */
 .project-one {
     position           : relative;
-    /* height          : 3280px; */
 }
 
 .topimage {
@@ -421,7 +419,6 @@ nav ul li a {
 
 .wireframe-name {
     width           : 600px;
-    height          : 1336px;
     background-color: #1A1D17;
     border-radius   : 40px 0px 0px 40px;
     display         : flex;
@@ -438,9 +435,15 @@ nav ul li a {
     margin-left    : 40px;
 }
 
-/* .wireframe-section img{
-    margin-left: 40px;
-} */
+.wireframe-section img,
+.uidesign-section img{
+    width: 65%;
+}
+
+.wireframe-section>div,
+.uidesign-section>div{
+    width: 30%;
+}
 .wireframe-name p {
     background             : -webkit-linear-gradient(rgb(54, 103, 177), rgb(230, 4, 144));
     -webkit-background-clip: text;
@@ -475,7 +478,6 @@ nav ul li a {
 
 .uidesign-name {
     width           : 600px;
-    height          : 1336px;
     background-color: #1A1D17;
     border-radius   : 40px 0px 0px 40px;
     display         : flex;
@@ -490,7 +492,6 @@ nav ul li a {
 .project-two {
     position        : relative;
     background-color: #F7F6F0;
-    height          : 2000px;
     margin-top      : 40px;
 }
 
@@ -546,7 +547,6 @@ nav ul li a {
 .project-three {
     position        : relative;
     background-color: #F7F6F0;
-    height          : 2000px;
     margin-top      : 40px;
 }
 
@@ -594,15 +594,11 @@ nav ul li a {
 }
 
 .screenproject31 {
-    width          : 928px;
-    height         : 781px;
     justify-content: flex-start;
     margin-bottom  : 15px;
 }
 
 .screenproject32 {
-    width          : 928px;
-    height         : 781px;
     justify-content: flex-end;
 }
 
