@@ -5,7 +5,6 @@
 }
 
 
-
 /* this is the header part CSS  */
 /*------------------------------------------------------------------------------------------------------------ */
 header {
@@ -44,7 +43,7 @@ nav ul li a {
     flex-direction  : row;
     justify-content : space-evenly;
     height          : 1000px;
-    padding         : 0px;
+    padding-bottom: 60px;
 }
 
 .content h1 {
@@ -74,21 +73,21 @@ nav ul li a {
 }
 
 .content {
-    height          : 900px;
     background-color: #F7F6F0;
     margin-left     : 65px;
     padding         : 0px 90px;
     padding-top     : 40px;
     border-radius   : 50px 0px 0px 50px;
+    width           : 65%;
 }
 
 .content .name-branding {
-    margin-top: 40px;
+    margin-top: 80px;
     width     : 100%;
 }
 
 .content button {
-    background-image: url('resume.png');
+    background-image: url('../images/resume.png');
     height          : 113px;
     border          : 0px;
     width           : 338px;
@@ -99,11 +98,15 @@ nav ul li a {
     display        : flex;
     justify-content: center;
 }
-
+.image{
+    width: 35%;
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: #1b1d18;
+}
 .image .photo {
-    height          : 700px;
     background-image: linear-gradient(to top, rgba(158, 2, 99), rgba(26, 29, 23));
-    height          : 901px;
+    width:100%;
 }
 
 /*------------------------------------------------------------------------------------------------------------ */
@@ -116,7 +119,7 @@ nav ul li a {
 .aboutme {
     background-color: #F7F6F0;
     border-color    : #7A27EB;
-    padding: 0px 60px;
+    padding         : 0px 60px;
     padding-bottom  : 80px;
 }
 
@@ -249,7 +252,7 @@ nav ul li a {
 }
 
 .software img {
-    width: 380px;
+    width      : 380px;
     padding-top: 30px;
 }
 
@@ -336,8 +339,8 @@ nav ul li a {
 /*------------------------------------------------------------------------------------------------------------ */
 /*------------------------------------------------------------------------------------------------------------ */
 .projects-head {
-    width        : 567px;
-    margin       : 40px auto;
+    width : 567px;
+    margin: 40px auto;
 }
 
 .projects h2 {
@@ -360,14 +363,15 @@ nav ul li a {
 }
 
 
- .project-list {
+.project-list {
     background-color: #F7F6F0;
-    padding: 60px 60px;
-} 
+    padding         : 60px 60px;
+}
+
 /*-project one */
 /*------------------------------------------------------------------------------------------------------------ */
 .project-one {
-    position        : relative;
+    position           : relative;
     /* height          : 3280px; */
 }
 
@@ -400,19 +404,19 @@ nav ul li a {
 
 .project-one,
 .project-two,
-.project-three{
+.project-three {
     margin-bottom: 80px;
 }
 
 .project-one>p,
 .project-two>p,
-.project-three>p{
-    font-family  : "Poppins", sans-serif;
-    font-size    : 20px;
-    font-weight  : 400;
-    width: 65%;
+.project-three>p {
+    font-family: "Poppins", sans-serif;
+    font-size  : 20px;
+    font-weight: 400;
+    width      : 65%;
     margin-left: 340px !important;
-    margin:0px auto;
+    margin     : 0px auto;
 }
 
 .wireframe-name {
@@ -422,7 +426,7 @@ nav ul li a {
     border-radius   : 40px 0px 0px 40px;
     display         : flex;
     align-items     : center;
-    justify-content: center;
+    justify-content : center;
 }
 
 .wireframe-section {
@@ -476,7 +480,7 @@ nav ul li a {
     border-radius   : 40px 0px 0px 40px;
     display         : flex;
     align-items     : center;
-    justify-content: center;
+    justify-content : center;
 }
 
 /*------------------------------------------------------------------------------------------------------------ */
@@ -526,7 +530,7 @@ nav ul li a {
     display        : flex;
     flex-direction : row;
     justify-content: space-evenly;
-    margin-top: 80px;
+    margin-top     : 80px;
 }
 
 .application {
@@ -555,7 +559,7 @@ nav ul li a {
 .count {
     margin-left: 30px;
     margin-top : 30px;
-    width: 250px;
+    width      : 250px;
 }
 
 .zero {
@@ -575,8 +579,9 @@ nav ul li a {
     justify-content: space-evenly;
     align-items    : center;
 }
-.screen-project3 img{
-    margin-bottom:80px;
+
+.screen-project3 img {
+    margin-bottom: 80px;
 }
 
 .project-three h4 {
@@ -669,9 +674,11 @@ nav ul li a {
     margin-left            : 25px;
     margin-bottom          : 20px;
 }
-.final-project{
+
+.final-project {
     padding: 60px 60px;
 }
+
 .fidelityscreen-list {
     display           : flex;
     flex-direction    : column;
@@ -682,10 +689,10 @@ nav ul li a {
 
 .fidelityscreen-one,
 .fidelityscreen-two {
-    display         : flex;
-    flex-direction  : row;
-    justify-content : space-evenly;
-    margin-bottom: 80px;
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-evenly;
+    margin-bottom  : 80px;
 }
 
 .blackbox p {
@@ -726,11 +733,11 @@ a {
 .conclusion {
     background-color: #F7F6F0;
     width           : 100%;
-    padding: 60px;
+    padding         : 60px;
 }
 
 .line {
-    width: 100%;
+    width        : 100%;
     margin-bottom: 60px;
 }
 
@@ -750,11 +757,12 @@ a {
 
 }
 
-.conclusion div{
-    text-align: right;
-    font-size:30px;
+.conclusion div {
+    text-align   : right;
+    font-size    : 30px;
     margin-bottom: 20px;
 }
+
 .hireme {
     margin-left: 350px;
 }
@@ -766,12 +774,12 @@ a {
     font-size  : 20px;
     font-weight: 400;
     text-align : right;
-    display:inline-block
+    display    : inline-block
 }
 
 /*------------------------------------------------------------------------------------------------------------ */
 /*Bootstrap classes*/
 /*------------------------------------------------------------------------------------------------------------ */
-.mar-b-40{
-    margin-bottom:40px !important;
+.mar-b-40 {
+    margin-bottom: 40px !important;
 }
