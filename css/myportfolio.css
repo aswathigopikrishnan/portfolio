@@ -762,6 +762,7 @@ a {
     right: 20px;
     border: 0px;
     border-radius: 50%;
+    display: none;
 }
 .scrollToTop i{
     font-size: 40px;
