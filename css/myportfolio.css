@@ -111,11 +111,6 @@ nav a:hover {
     flex-direction: column-reverse;
     /* background-image: linear-gradient(to top, rgba(158, 2, 99), rgb(26 29 24)) */
     background-color: #F7F6F0;
-    justify-content: center;
-}
-
-.image .photo {
-    width: 100%;
 }
 
 
