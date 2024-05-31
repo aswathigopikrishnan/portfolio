@@ -51,7 +51,7 @@
             <img src="images/Logo.png" alt="" class="logo">
             <nav>
                 <ul>
-                    <li><a href="#aboutme"><b>About me</b></a></li>
+                    <li><a href="#aboutme">About me</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#conclusion">Contact</a></li>
@@ -324,6 +324,11 @@
                 barber shop experience. Develop a logo that resonate with target audience
                 Get feedback from customers including barbers , staff and saloon to identify areas for improvement .
             </p>
+            <p class="link">
+                Case study has been done for this project . To view it  <a target="_blank" href="https://www.figma.com/proto/bMpW1vaWjjFj326RhIrhJj/UX-CASE-STUDY?node-id=40-1481&t=qc4ShSHOPauDAcMT-0&scaling=min-zoom&page-id=1%3A2"><b><u>Click here!
+
+                </u></b></a> 
+            </p>
             <h5 class="mar-b-40"><u>
                     High Fidelity Screen
                 </u>
@@ -339,7 +344,7 @@
                 </div>
             </div>
             <p class="link">To view the complete implementation,
-                <a target="_blank" href="https://www.figma.com/design/bMpW1vaWjjFj326RhIrhJj/UX-CASE-STUDY?node-id=2-224&t=dqaV52T88B0yPaqD-0"><b>Click here!</b></a>
+                <a target="_blank" href="https://www.figma.com/design/bMpW1vaWjjFj326RhIrhJj/UX-CASE-STUDY?node-id=2-224&t=dqaV52T88B0yPaqD-0"><b><u>Click here!</u></b></a>
             </p>
         </div>
     </section>
@@ -347,7 +352,7 @@
     <img src="images/line.png" alt="" class="line">
     <section class="conclusion" id="conclusion">
 
-        <p>As <a href="javascript:void(0)">my portfolio</a> concludes, <br>
+        <p>As <a href="javascript:void(0)">my portfolio</a> concludes, <br> 
             a new journey awaits<br>
             <a href="javascript:void(0)" class="hireme">Hire me to be part of it</a>
         </p>
@@ -366,8 +371,31 @@
                 </p>
             </div>
         </div>
+        <button class="scrollToTop" onclick="scrollTopAnimated()"><i class="fa-solid fa-circle-arrow-up"></i> </button>
     </section>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script>
+        function scrollTopAnimated() { 
+            $("html, body").animate({ scrollTop: "0" }); 
+        } 
+        let scrollToTop = document.querySelector(".scrollToTop");
+        let profile = document.querySelector(".aboutme");
 
+        function toggle(display) {
+            scrollToTop.style.display = display;
+        }
+
+        window.addEventListener('scroll',function(e) {
+            let profileHeight = profile.offsetTop;
+            let scrollHeight = window.scrollY;
+            
+            scrollHeight >= profileHeight ? toggle("block") : toggle("none");
+        });
+
+        function back() {
+        window.scrollTo(0,0);
+        }
+    </script> 
 </body>
 
 </html>
