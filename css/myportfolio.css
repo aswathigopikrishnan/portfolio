@@ -33,7 +33,11 @@ nav ul {
 nav ul li a {
     color          : black;
     text-decoration: none;
-    font-size      : 24px;
+    font-size      : 16px;
+}
+
+nav a:hover{
+    text-decoration:underline !important;
 }
 
 .twosection {
@@ -58,8 +62,6 @@ nav ul li a {
     font-family            : "Croissant One", serif;
     font-weight      : 400;
     font-size        : 42px;
-    /* padding-top   : 60px; */
-    /* padding-bottom: 40px; */
     margin-bottom    : 40px;
     background             : -webkit-linear-gradient(rgb(54, 103, 177), rgb(230, 4, 144));
     -webkit-background-clip: text;
@@ -89,9 +91,9 @@ nav ul li a {
 
 .content button {
     background-image: url('../images/resume.png');
-    height          : 113px;
+    height: 112px;
     border          : 0px;
-    width           : 338px;
+    width: 326px;
     cursor          : pointer;
 }
 
