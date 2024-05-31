@@ -425,7 +425,7 @@ nav a:hover {
 
 .wireframe-name {
     width: 600px;
-    background-color: #1A1D17;
+    background-color: black;
     border-radius: 40px 0px 0px 40px;
     display: flex;
     align-items: center;
@@ -473,7 +473,7 @@ nav a:hover {
 
 .uidesign-name {
     width: 600px;
-    background-color: #1A1D17;
+    background-color: black;
     border-radius: 0px 40px 40px 0px;
     display: flex;
     align-items: center;
