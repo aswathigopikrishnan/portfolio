@@ -84,7 +84,7 @@ nav a:hover {
     padding-left: 90px;
     padding-top: 40px;
     border-radius: 50px 0px 0px 50px;
-    width: 65%;
+    width: 60%;
 }
 
 .content .name-branding {
@@ -106,11 +106,12 @@ nav a:hover {
 }
 
 .image {
-    /* width           : 35%; */
+    width: 40%;
     display: flex;
     flex-direction: column-reverse;
     /* background-image: linear-gradient(to top, rgba(158, 2, 99), rgb(26 29 24)) */
     background-color: #F7F6F0;
+    justify-content: center;
 }
 
 .image .photo {
