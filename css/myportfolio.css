@@ -1,20 +1,23 @@
 * {
-    margin     : 0;
-    padding    : 0;
-    box-sizing : border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
 
 
 /* this is the header part CSS  */
+
+
 /*------------------------------------------------------------------------------------------------------------ */
+
 header {
-    background-color: white;    
-   width           : 100%;
-    display         : flex;
-    flex-direction  : row;
-    justify-content : space-between;
-    padding         : 5px 20px;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 20px;
 }
 
 .logo {
@@ -22,7 +25,7 @@ header {
 }
 
 nav ul li {
-    display     : inline;
+    display: inline;
     margin-right: 60px;
 }
 
@@ -31,219 +34,223 @@ nav ul {
 }
 
 nav ul li a {
-    color          : black;
+    color: black;
     text-decoration: none;
-    font-size      : 16px;
+    font-size: 18px;
 }
 
-nav a:hover{
-    text-decoration:underline !important;
+nav a:hover {
+    text-decoration: underline !important;
 }
 
 .twosection {
-    background-color:white;
-    display         : flex;
-    flex-direction  : row;
-    justify-content : space-evenly;
-    padding-bottom  : 60px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 60px;
     position: relative;
     top: -1px;
 }
 
 .content h1 {
-    font-family  : "Ruluko", sans-serif;
-    font-weight  : 400;
-    font-size    : 80px;
-    padding-top  : 60px;
+    font-family: "Ruluko", sans-serif;
+    font-weight: 400;
+    font-size: 80px;
+    padding-top: 60px;
     margin-bottom: 40px;
 }
 
 .content h2 {
-    font-family            : "Croissant One", serif;
-    font-weight      : 400;
-    font-size        : 42px;
-    margin-bottom    : 40px;
-    background             : -webkit-linear-gradient(rgb(54, 103, 177), rgb(230, 4, 144));
+    font-family: "Croissant One", serif;
+    font-weight: 400;
+    font-size: 42px;
+    margin-bottom: 40px;
+    background: -webkit-linear-gradient(rgb(54, 103, 177), rgb(230, 4, 144));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .content p {
-    font-size       : 20px;
-    font-weight     : 400;
+    font-size: 20px;
+    font-weight: 400;
     /* width        : 70%; */
-    margin-bottom   : 40px;
+    margin-bottom: 40px;
 }
 
 .content {
     background-color: #F7F6F0;
-    margin-left     : 65px;
-    padding         : 0px 90px;
-    padding-top     : 40px;
-    border-radius   : 50px 0px 0px 50px;
-    width           : 65%;
+    margin-left: 65px;
+    padding-left: 90px;
+    padding-top: 40px;
+    border-radius: 50px 0px 0px 50px;
+    width: 65%;
 }
 
 .content .name-branding {
     margin: 80px 0px;
-    width : 100%;
+    width: 100%;
 }
 
 .content button {
     background-image: url('../images/resume.png');
     height: 112px;
-    border          : 0px;
+    border: 0px;
     width: 326px;
-    cursor          : pointer;
+    cursor: pointer;
 }
 
 .content .resume {
-    display        : flex;
+    display: flex;
     justify-content: center;
 }
 
 .image {
-    width           : 35%;
-    display         : flex;
-    flex-direction  : column-reverse;
+    /* width           : 35%; */
+    display: flex;
+    flex-direction: column-reverse;
     /* background-image: linear-gradient(to top, rgba(158, 2, 99), rgb(26 29 24)) */
     background-color: #F7F6F0;
-    
 }
 
 .image .photo {
-    width           : 100%;
+    width: 100%;
 }
 
+
 /*------------------------------------------------------------------------------------------------------------ */
+
+
 /*------------------------------------------------------------------------------------------------------------ */
 
 
 /*The about me part of CSS*/
+
+
 /*------------------------------------------------------------------------------------------------------------ */
 
 .aboutme {
     background-color: #F7F6F0;
-    border-color    : #7A27EB;
-    padding         : 0px 60px;
-    padding-bottom  : 80px;
+    border-color: #7A27EB;
+    padding: 0px 60px;
+    padding-bottom: 80px;
 }
 
 .aboutmesection {
-    display       : flex;
+    display: flex;
     flex-direction: row;
-    align-items   : flex-start;
-    padding-top   : 100px;
+    align-items: flex-start;
+    padding-top: 100px;
+    justify-content: space-between;
 }
 
 .aboutmecontent h3 {
-    font-family            : "Croissant One", serif;
-    font-weight            : 400;
-    font-size              : 50px;
-    background             : -webkit-linear-gradient(rgb(54, 103, 177), rgb(230, 4, 144));
+    font-family: "Croissant One", serif;
+    font-weight: 400;
+    font-size: 50px;
+    background: -webkit-linear-gradient(rgb(54, 103, 177), rgb(230, 4, 144));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .aboutmecontent {
     margin-left: 40px;
+    width: 50%;
 }
 
 .aboutmecontent p {
-    font-size  : 20px;
+    font-size: 20px;
     font-weight: 400;
 }
 
 .education h3 {
-    font-family            : "Croissant One", serif;
-    font-weight            : 400;
-    font-size              : 45px;
-    background             : -webkit-linear-gradient(rgb(54, 103, 177), rgb(230, 4, 144));
+    font-family: "Croissant One", serif;
+    font-weight: 400;
+    font-size: 45px;
+    background: -webkit-linear-gradient(rgb(54, 103, 177), rgb(230, 4, 144));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .certificate h3 {
-    font-family            : "Croissant One", serif;
-    font-weight            : 400;
-    font-size              : 45px;
-    background             : -webkit-linear-gradient(rgb(54, 103, 177), rgb(230, 4, 144));
+    font-family: "Croissant One", serif;
+    font-weight: 400;
+    font-size: 45px;
+    background: -webkit-linear-gradient(rgb(54, 103, 177), rgb(230, 4, 144));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .education h4 {
-    font-size     : 20px;
-    font-weight   : 400;
+    font-size: 20px;
+    font-weight: 400;
     padding-bottom: 12px;
 }
 
 .certificate h4 {
-    font-size     : 20px;
-    font-weight   : 400;
+    font-size: 20px;
+    font-weight: 400;
     padding-bottom: 12px;
 }
 
 .education p {
-    font-size  : 20px;
+    font-size: 20px;
     font-weight: 400;
-
 }
 
 .certificate p {
-    font-size  : 20px;
+    font-size: 20px;
     font-weight: 400;
 }
 
 .educationsection {
-    display       : flex;
+    display: flex;
     flex-direction: row;
-    flex-wrap     : wrap;
-    margin-top    : 100px;
+    flex-wrap: wrap;
+    margin-top: 100px;
 }
 
 .educationsection>*,
 .softwaresection>* {
-    width       : 50%;
+    width: 50%;
     padding-left: 60px;
-    margin-top  : 40px;
+    margin-top: 40px;
 }
 
 .education .header,
 .certificate .header {
     position: relative;
-    width   : max-content;
+    width: max-content;
 }
 
 .fa-graduation-cap,
 .fa-sheet-plastic {
-    position : absolute;
-    top      : -8px;
+    position: absolute;
+    top: -8px;
     font-size: 26px;
-    right    : -20px;
+    right: -20px;
 }
 
-
 .softwaresection {
-    display       : flex;
+    display: flex;
     flex-direction: row;
-    margin-top    : 40px;
+    margin-top: 40px;
 }
 
 .software h4 {
-    font-family            : "Croissant One", serif;
-    font-weight            : 400;
-    font-size              : 45px;
-    background             : -webkit-linear-gradient(rgb(54, 103, 177), rgb(230, 4, 144));
+    font-family: "Croissant One", serif;
+    font-weight: 400;
+    font-size: 45px;
+    background: -webkit-linear-gradient(rgb(54, 103, 177), rgb(230, 4, 144));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .skills h4 {
-    font-family            : "Croissant One", serif;
-    font-weight            : 400;
-    font-size              : 45px;
-    background             : -webkit-linear-gradient(rgb(54, 103, 177), rgb(230, 4, 144));
+    font-family: "Croissant One", serif;
+    font-weight: 400;
+    font-size: 45px;
+    background: -webkit-linear-gradient(rgb(54, 103, 177), rgb(230, 4, 144));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -253,67 +260,67 @@ nav a:hover{
 }
 
 .software img {
-    width      : 380px;
+    width: 380px;
     padding-top: 30px;
 }
 
 .figma-content {
-    display        : flex;
-    flex-direction : row;
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    align-items    : center;
+    align-items: center;
 }
 
 .percent {
-    width            : 90px;
-    height           : 90px;
-    background-color : #AAFF00;
-    border-radius    : 50px;
-    align-content    : center;
-    box-shadow       : 0px 4px 4px rgba(0, 0, 0, 0.255);
+    width: 90px;
+    height: 90px;
+    background-color: #AAFF00;
+    border-radius: 50px;
+    align-content: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.255);
     /* padding-bottom: 10px; */
-    text-align       : center;
-    margin-bottom    : 10px;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 .figma-content h5 {
-    font-size  : 30px;
+    font-size: 30px;
     font-weight: 400;
 }
 
 .HTML-content {
-    display        : flex;
-    flex-direction : row;
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    align-items    : center;
+    align-items: center;
 }
 
 .HTML-content h5 {
-    font-size  : 30px;
+    font-size: 30px;
     font-weight: 400;
 }
 
 .CSS-content {
-    display        : flex;
-    flex-direction : row;
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    align-items    : center;
+    align-items: center;
 }
 
 .CSS-content h5 {
-    font-size  : 30px;
+    font-size: 30px;
     font-weight: 400;
 }
 
 .JS-content {
-    display        : flex;
-    flex-direction : row;
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    align-items    : center;
+    align-items: center;
 }
 
 .JS-content h5 {
-    font-size  : 30px;
+    font-size: 30px;
     font-weight: 400;
 }
 
@@ -333,64 +340,71 @@ nav a:hover{
     padding-bottom: 15px;
 }
 
+
 /*------------------------------------------------------------------------------------------------------------ */
+
+
 /*------------------------------------------------------------------------------------------------------------ */
+
 .projects-head {
-    width : 567px;
+    width: 567px;
     margin: 40px auto;
 }
 
 .projects h2 {
-    font-size              : 86px;
-    font-weight            : 400;
-    text-align             : center;
-    background             : -webkit-linear-gradient(rgb(54, 103, 177), rgb(230, 4, 144));
+    font-size: 86px;
+    font-weight: 400;
+    text-align: center;
+    background: -webkit-linear-gradient(rgb(54, 103, 177), rgb(230, 4, 144));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    line-height            : 1;
+    line-height: 1;
 }
 
 .projects h1 {
     font-family: "Fraunces", serif;
-    font-size  : 116px;
+    font-size: 116px;
     font-weight: 400;
-    text-align : center;
+    text-align: center;
     line-height: 1;
 }
 
-
 .project-list {
     background-color: #F7F6F0;
-    padding         : 60px 60px;
+    padding: 60px 60px;
 }
 
+
 /*-project one */
+
+
 /*------------------------------------------------------------------------------------------------------------ */
+
 .project-one {
     position: relative;
 }
 
 .topimage {
     position: absolute;
-    top     : 0px;
-    right   : 0px;
+    top: 0px;
+    right: 0px;
 }
 
 .project-one h2 {
     font-family: "Croissant One", serif;
     font-weight: 400;
-    font-size  : 45px;
+    font-size: 45px;
 }
 
 .count {
     margin-left: 30px;
-    margin-top : 30px;
+    margin-top: 30px;
 }
 
 .project-name {
-    display       : flex;
+    display: flex;
     flex-direction: row;
-    align-items   : center;
+    align-items: center;
 }
 
 .project-name h2 {
@@ -406,29 +420,29 @@ nav a:hover{
 .project-one>p,
 .project-two>p,
 .project-three>p {
-    font-size  : 20px;
+    font-size: 20px;
     font-weight: 400;
-    width      : 65%;
+    width: 65%;
     margin-left: 340px !important;
-    margin     : 0px auto;
+    margin: 0px auto;
 }
 
 .wireframe-name {
-    width           : 600px;
+    width: 600px;
     background-color: #1A1D17;
-    border-radius   : 40px 0px 0px 40px;
-    display         : flex;
-    align-items     : center;
-    justify-content : center;
+    border-radius: 40px 0px 0px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .wireframe-section {
-    display        : flex;
-    flex-direction : row;
+    display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
-    margin-top     : 20px;
-    margin-bottom  : 40px;
-    margin-left    : 40px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 40px;
 }
 
 .wireframe-section img,
@@ -443,125 +457,141 @@ nav a:hover{
 
 .wireframe-name p,
 .uidesign-name p {
-    background             : -webkit-linear-gradient(rgb(54, 103, 177), rgb(230, 4, 144));
+    background: -webkit-linear-gradient(rgb(54, 103, 177), rgb(230, 4, 144));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family            : "Croissant One", serif;
-    font-weight            : 400;
-    font-size              : 32px;
-    text-align             : center;
+    font-family: "Croissant One", serif;
+    font-weight: 400;
+    font-size: 32px;
+    text-align: center;
 }
 
 .uidesign-section {
-    display        : flex;
-    flex-direction : row;
+    display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
-    margin-top     : 20px;
-    margin-bottom  : 40px;
-    margin-left    : 40px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 40px;
 }
 
 .uidesign-name {
-    width           : 600px;
+    width: 600px;
     background-color: #1A1D17;
     border-radius: 0px 40px 40px 0px;
-    display         : flex;
-    align-items     : center;
-    justify-content : center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+
 /*------------------------------------------------------------------------------------------------------------ */
+
+
 /*------------------------------------------------------------------------------------------------------------ */
+
+
 /*Project two */
+
+
 /*------------------------------------------------------------------------------------------------------------ */
+
 .project-two {
-    position        : relative;
+    position: relative;
     background-color: #F7F6F0;
-    margin-top      : 40px;
+    margin-top: 40px;
 }
 
 .project-two h2 {
     font-family: "Croissant One", serif;
     font-weight: 400;
-    font-size  : 45px;
+    font-size: 45px;
 }
 
 .count {
     margin-left: 30px;
-    margin-top : 30px;
+    margin-top: 30px;
 }
 
 .zero {
-    width : 109px;
+    width: 109px;
     height: 95px;
 }
 
 .project-two h4 {
-    font-size      : 36px;
-    font-weight    : 600;
-    margin-left    : 30px;
-    margin-top     : 30px;
+    font-size: 36px;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-top: 30px;
     text-decoration: underline;
 }
 
 .screensetone {
-    display        : flex;
-    flex-direction : row;
+    display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
-    margin-top     : 40px;
+    margin-top: 40px;
 }
 
 .screensettwo {
-    display        : flex;
-    flex-direction : row;
+    display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
-    margin-top     : 80px;
+    margin-top: 80px;
 }
 
 .application {
     margin-left: 10px;
-    width      : 180px;
-    height     : 150px;
+    width: 180px;
+    height: 150px;
 }
 
+
 /*------------------------------------------------------------------------------------------------------------ */
+
+
 /*------------------------------------------------------------------------------------------------------------ */
+
+
 /*Project three*/
+
+
 /*------------------------------------------------------------------------------------------------------------ */
+
 .project-three {
-    position        : relative;
+    position: relative;
     background-color: #F7F6F0;
-    margin-top      : 40px;
+    margin-top: 40px;
 }
 
 .project-three h2 {
     font-family: "Croissant One", serif;
     font-weight: 400;
-    font-size  : 45px;
+    font-size: 45px;
 }
 
 .count {
     margin-left: 30px;
-    margin-top : 30px;
-    width      : 250px;
+    margin-top: 30px;
+    width: 250px;
 }
 
 .zero {
-    width : 109px;
+    width: 109px;
     height: 95px;
 }
 
 .three {
-    width : 99px;
+    width: 99px;
     height: 93px;
 }
 
 .screen-project3 {
-    display        : flex;
-    flex-direction : column;
-    align-content  : stretch;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
     justify-content: space-evenly;
-    align-items    : center;
+    align-items: center;
 }
 
 .screen-project3 img {
@@ -569,87 +599,93 @@ nav a:hover{
 }
 
 .project-three h4 {
-    font-size      : 36px;
-    font-weight    : 600;
-    margin-left    : 30px;
-    margin-top     : 30px;
+    font-size: 36px;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-top: 30px;
     text-decoration: underline;
 }
 
 .screenproject31 {
     justify-content: flex-start;
-    margin-bottom  : 15px;
+    margin-bottom: 15px;
 }
 
 .screenproject32 {
     justify-content: flex-end;
 }
 
+
 /*------------------------------------------------------------------------------------------------------------ */
+
+
 /*------------------------------------------------------------------------------------------------------------ */
+
+
 /*Final project */
+
+
 /*------------------------------------------------------------------------------------------------------------ */
 
 .final-project .final-project-head {
-    text-decoration        : underline;
-    font-family            : "Fraunces", serif;
-    font-weight            : 400;
-    font-size              : 60px;
-    background             : -webkit-linear-gradient(rgb(54, 103, 177), rgb(230, 4, 144));
+    text-decoration: underline;
+    font-family: "Fraunces", serif;
+    font-weight: 400;
+    font-size: 60px;
+    background: -webkit-linear-gradient(rgb(54, 103, 177), rgb(230, 4, 144));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin-top             : 10px;
-    text-decoration-line   : underline;
-    text-decoration-style  : solid;
-    text-decoration-color  : black;
-
+    margin-top: 10px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: black;
 }
 
 .final-project-name {
     font-family: "Croissant One", serif;
-    font-size  : 50px;
+    font-size: 50px;
     font-weight: 400;
-    text-align : center;
+    text-align: center;
 }
 
 .tagline {
-    font-size  : 25px;
+    font-size: 25px;
     font-weight: 400;
-    text-align : center;
+    text-align: center;
 }
 
 .final-project-about {
-    font-family          : "Ribeye", serif;
-    font-size            : 35px;
-    font-weight          : 400;
-    margin-left          : 25px;
-    margin-bottom        : 20px;
-    text-decoration-line : underline;
+    font-family: "Ribeye", serif;
+    font-size: 35px;
+    font-weight: 400;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    text-decoration-line: underline;
     text-decoration-style: solid;
     text-decoration-color: black;
 }
 
 .final-project p {
-    font-size    : 20px;
-    font-weight  : 400;
-    padding      : 40px;
-    margin-left  : 25px;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 40px;
+    margin-left: 25px;
     margin-bottom: 20px;
 }
 
 .final-project h5 {
-    font-family            : "Croissant One", serif;
-    font-size              : 40px;
-    font-weight            : 400;
-    background             : -webkit-linear-gradient(rgb(54, 103, 177), rgb(230, 4, 144));
+    font-family: "Croissant One", serif;
+    font-size: 40px;
+    font-weight: 400;
+    background: -webkit-linear-gradient(rgb(54, 103, 177), rgb(230, 4, 144));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-decoration-line   : underline;
-    text-decoration-style  : solid;
-    text-decoration-color  : black;
-    text-align             : center;
-    margin-left            : 25px;
-    margin-bottom          : 20px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: black;
+    text-align: center;
+    margin-left: 25px;
+    margin-bottom: 20px;
 }
 
 .final-project {
@@ -657,8 +693,8 @@ nav a:hover{
 }
 
 .fidelityscreen-list {
-    display           : flex;
-    flex-direction    : column;
+    display: flex;
+    flex-direction: column;
     /* align-content  : stretch;
     justify-content   : space-evenly;
     align-items       : center; */
@@ -666,99 +702,108 @@ nav a:hover{
 
 .fidelityscreen-one,
 .fidelityscreen-two {
-    display        : flex;
-    flex-direction : row;
+    display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
-    margin-bottom  : 80px;
+    margin-bottom: 80px;
 }
 
 .blackbox p {
-    color    : white;
+    color: white;
     font-size: 40px;
 }
 
 .blackbox {
-    width           : 373px;
-    height          : 335px;
+    width: 373px;
+    height: 335px;
     background-color: black;
-    margin-top      : 15px;
-    border-radius   : 0px 40px 40px 0px;
-    box-shadow      : 10px 10px 5px rgba(255, 255, 255, 0.303) inset;
+    margin-top: 15px;
+    border-radius: 0px 40px 40px 0px;
+    box-shadow: 10px 10px 5px rgba(255, 255, 255, 0.303) inset;
 }
 
 a {
     text-decoration: none;
-    color          : #1D5A27;
-    text-align     : center;
+    color: #1D5A27;
+    text-align: center;
 }
 
 .final-project .link {
     /* text-indent: 50px; */
-    text-align          : justify;
+    text-align: justify;
     /* letter-spacing   : 3px; */
-    text-align          : center;
-    font-size           : 30px;
+    text-align: center;
+    font-size: 30px;
     /* font-weight      : bolder; */
 }
 
+
 /*------------------------------------------------------------------------------------------------------------ */
+
+
 /*------------------------------------------------------------------------------------------------------------ */
+
+
 /* ------------------------------------------------------------------------------------------------------------------  */
+
+
 /* this is the conclusion section CSS  */
+
+
 /*------------------------------------------------------------------------------------------------------------ */
+
 .conclusion {
     background-color: #F7F6F0;
-    width           : 100%;
-    padding         : 60px;
+    width: 100%;
+    padding: 60px;
 }
 
 .line {
-    width        : 100%;
+    width: 100%;
     margin-bottom: 60px;
 }
 
 .conclusion a {
-    background             : -webkit-linear-gradient(rgb(54, 103, 177), rgb(230, 4, 144));
+    background: -webkit-linear-gradient(rgb(54, 103, 177), rgb(230, 4, 144));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family            : inherit;
+    font-family: inherit;
 }
 
 .conclusion p {
     font-family: "Mystery Quest", system-ui;
     font-weight: 400;
-    font-style : normal;
-    font-size  : 50px;
-    text-align : center;
-    margin-top : 10px;
-
+    font-style: normal;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 10px;
 }
 
 .conclusion div {
-    text-align   : right;
-    font-size    : 20px;
+    text-align: right;
+    font-size: 20px;
     margin-bottom: 20px;
 }
 
 .phone p,
 .email p,
 .linkedin p {
-    font-size  : 20px;
+    font-size: 20px;
     font-weight: 400;
-    text-align : right;
-    display    : inline-block;
+    text-align: right;
+    display: inline-block;
     margin-left: 20px;
 }
 
 .contact-details a {
-    color                  : black;
-    text-decoration        : none;
-    background             : black;
+    color: black;
+    text-decoration: none;
+    background: black;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.scrollToTop{
+.scrollToTop {
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -766,12 +811,20 @@ a {
     border-radius: 50%;
     display: none;
 }
-.scrollToTop i{
-    font-size: 40px;
+
+.scrollToTop i {
+    font-size: 80px;
 }
+
+
 /*------------------------------------------------------------------------------------------------------------ */
+
+
 /*Bootstrap classes*/
+
+
 /*------------------------------------------------------------------------------------------------------------ */
+
 .mar-b-40 {
     margin-bottom: 40px !important;
 }
